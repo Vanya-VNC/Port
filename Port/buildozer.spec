@@ -10,13 +10,13 @@ package.name = Port
 package.domain = org.wiseplat
 
 # (str) Source code where the main.py live
-source.dir = .
+source.dir = Port/.
 
 # (list) Source files to include (let empty to include all the files)
 #source.include_exts = py,png,jpg,kv,atlas,po,mo
 
 # (list) List of inclusions using pattern matching
-#source.include_patterns = assets/*,images/*.png
+#source.include_patterns = assets/*,images/*.png, images/*.jpg
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
