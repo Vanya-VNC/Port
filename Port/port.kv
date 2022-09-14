@@ -1,0 +1,31 @@
+<ButImage@ButtonBehavior+AsyncImage>
+
+<Container>:
+
+    img: card
+
+    canvas:
+        Rectangle:
+            source:'imgs/backg.png'
+            size: self.size
+            pos: self.pos
+
+    orientation: 'vertical'
+    padding: 20
+
+    AnchorLayout:
+        size_hint: 0.2, 0.1
+        ButImage:
+            source: 'imgs/menu.png'
+            size: 50, 50
+
+    #  Label:
+    #      font_size: 32
+    #      text: '32'
+    #      size_hint_y: 0.1
+
+    ButImage:
+        id: card
+        source:'imgs/cardback.jpg'
+        on_press:
+            root.Image_press()
